@@ -1,0 +1,114 @@
+.visualizar-conjuntos-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e2f44;
+}
+
+.visualizar-conjuntos-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.visualizar-conjuntos-infos {
+  margin-bottom: 24px;
+}
+
+.visualizar-conjuntos-infos label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.visualizar-conjuntos-infos input[type="text"],
+.visualizar-conjuntos-infos input[type="number"],
+.visualizar-conjuntos-infos textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.visualizar-conjuntos-infos textarea {
+  min-height: 100px;
+}
+
+.visualizar-conjuntos-nota {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 16px;
+  background-color: #f9fafb;
+}
+
+.visualizar-conjuntos-nota label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.visualizar-conjuntos-nota strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #0f172a; /* más oscuro para destacar */
+}
+
+.visualizar-conjuntos-nota textarea,
+.visualizar-conjuntos-nota input[type="number"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.visualizar-conjuntos-nota input[type="number"] {
+  max-width: 80px;
+}
+
+.visualizar-conjuntos-nota div {
+  margin-top: 8px;
+}
+
+.visualizar-conjuntos-guardar-btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  background-color: #3a7bd5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(58, 123, 213, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.visualizar-conjuntos-guardar-btn:hover:enabled {
+  background-color: #2e65bb;
+}
+
+.visualizar-conjuntos-guardar-btn:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+/* Mensajes de estado */
+.visualizar-conjuntos-container p {
+  font-style: italic;
+  color: #64748b;
+  text-align: center;
+}

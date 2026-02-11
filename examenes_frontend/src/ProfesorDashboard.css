@@ -1,0 +1,65 @@
+.profesor-dashboard {
+  min-height: 100vh;
+  background: #181c21;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profesor-header {
+  background: #214060;
+  padding: 16px 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profesor-header h2 {
+  margin: 0;
+}
+
+.logout-btn {
+  background: #3873a8;
+  border: none;
+  padding: 8px 18px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.logout-btn:hover {
+  background: #16324b;
+}
+
+.profesor-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 40px 5vw;
+}
+
+.menu-card {
+  background: #212b37;
+  border-radius: 12px;
+  padding: 24px;
+  width: 220px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 4px 16px #0004;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px #0006;
+}
+
+.menu-card h3 {
+  color: #b5d8f6;
+  margin: 10px 0 6px 0;
+}
+
+.menu-card p {
+  font-size: 0.95rem;
+  color: #87a7cb;
+}

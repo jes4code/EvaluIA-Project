@@ -1,0 +1,10 @@
+node_modules
+*.log
+.vscode
+__pycache__
+*.pyc
+.env
+.git
+output_images
+pdfs
+temp
